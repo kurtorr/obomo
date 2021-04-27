@@ -40,11 +40,11 @@ public class SusMove : MonoBehaviour
             Debug.Log("Input: A");
         }
         //Rotate imposter
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Rotate(new Vector3(0, rSpeed * Time.deltaTime, 0));
         }
-        else if (Input.GetKey(KeyCode.Q))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Rotate(new Vector3(0, -rSpeed * Time.deltaTime, 0));
         }
